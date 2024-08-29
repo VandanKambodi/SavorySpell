@@ -1,0 +1,502 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+header
+{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden; 
+}
+
+.head-img
+{
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+    opacity: 0.95;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 10vw;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar
+{
+    display: flex;
+}
+
+.nav h4 a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar li
+{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    font-weight: lighter;
+    list-style: none;
+}
+
+.nav-bar li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li a:hover
+{
+    color: rgb(255, 227, 176);
+    background-color: rgb(70, 70, 70);
+}
+
+.nav-bar li a:active
+{
+    color: rgb(253, 52, 52);
+}
+
+.head
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+
+.head h1
+{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+
+.head h3
+{
+    font-size: 1.7em;
+    color: #ffdd9e;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search
+{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 1%;
+}
+
+.search input
+{
+    outline: none;
+    border: none;
+    width: 50%;
+    color: gray;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.box
+{
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.box1
+{
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.img
+{
+    border: 1px;
+    border-radius: 5%;
+    height: 250px;
+    width: 325.5px;
+    background-size: cover;
+    border-color: whitesmoke;
+    border-style: solid;
+    display: inline-block;
+    padding-left: 20px;
+    transition: transform 0.3s, box-shadow 0.2s;
+}
+
+.img:hover
+{
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sec2
+{
+    margin: 60px 150px;
+}
+
+.coll h2
+{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.coll div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+} 
+
+.coll h6
+{
+    margin: 0%;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: gray;
+}
+
+.coll span
+{
+    color: red;
+    font-weight: bold;
+}
+
+.b1
+{
+    width: 250x;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+.b1 div
+{
+    position: absolute;
+    background:linear-gradient(transparent,black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0%;
+}
+
+.b1 div span:first-child
+{
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}   
+
+.b1 img
+{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sec3
+{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+}
+
+.sec4
+{
+    display: flex;
+    margin-top: 0px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(253, 253, 209);
+}
+
+.contact
+{
+    width: 470px;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+.contact p
+{
+    padding-bottom: 10px;
+    font-size: 1.05rem;
+    color: gray;
+}
+
+.contact h2
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.radio
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+}
+
+.radio label
+{
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.radio [type="radio"]
+{
+    accent-color: rgb(250, 0, 0);
+}
+
+.emaill
+{
+    position: relative;
+}
+
+.emaill input
+{
+    height: 28px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid gray;
+    font-size: 1.3rem;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.place
+{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.emaill button
+{
+    height: 30px;
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 208, 0);
+    background-color: rgb(255, 182, 45);
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+}
+
+.emaill button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.download
+{
+    font-size: 0.9rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.app img
+{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.sec5
+{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.sec5 h1
+{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.sec5 h4
+{
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    color: rgb(48, 48, 48);
+}
+
+.sec5 a
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.99rem;
+}
+
+.des
+{
+    margin-top: 15px;
+    margin-bottom: 90px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.des h1
+{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.des p4
+{
+    color: rgb(92, 91, 91);
+    font-size: 1.2rem;
+}
+
+.des p1
+{
+    color: rgb(150, 150, 150);
+    font-size: 1.1rem;
+}
+
+.des p2
+{
+    color: rgb(150, 150, 150);
+    font-size: 1.1rem;
+}
+
+.des p3
+{
+    color: rgb(150, 150, 150);
+    font-size: 1.1rem;
+}
+
+.bottom
+{
+    background-color: rgb(240, 240, 245);;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.bottom img
+{
+    width: 200px;
+    height: 55px;
+    margin-bottom: 30px;
+    padding-top: 35px;
+}
+
+.bottom h1
+{
+    color: rgb(46, 46, 46);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer
+{
+    margin: 0%;
+    width: 100%;
+    height: 490px;
+    background-color: black;
+}
+
+.sec6
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec6 div
+{
+    width: 200px;
+}
+
+.sec6 h4
+{
+    font-weight: lighter;
+    color: #FFFFFFEB;
+    white-space: nowrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.sec6 a
+{
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    color: #FFFFFF99;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec6 h1
+{
+    color: #FFFFFFEB;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 1.9rem;
+}
+
+.sec6 p
+{
+    color: #FFFFFF99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    margin-top: 3px;
+}
